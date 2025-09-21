@@ -23,6 +23,7 @@ A robust hybrid C/C++ calculator application featuring modular architecture and 
 
 ### Project Structure
 
+```text
 ├── .vscode/
 │   └── tasks.json             # VS Code build tasks configuration
 ├── main.cpp                   # Program entry point (C++ style)
@@ -35,6 +36,7 @@ A robust hybrid C/C++ calculator application featuring modular architecture and 
 ├── Calculator.vcxproj         # Visual Studio project file (C++14)
 ├── Calculator_Compatible.vcxproj # Visual Studio project file (compatible)
 └── README.md                  # This documentation
+```
 
 ### Architecture: Hybrid C/C++ Design
 
@@ -175,10 +177,13 @@ The calculator has been tested with:
 4. Multiply two numbers
 5. Divide two numbers
 6. Exit
+
 Enter your choice (1-6): 2
 
 Enter the first number: 15
+
 Enter the second number: 25
+
 Result: 15 + 25 = 40
 
 ## Troubleshooting
