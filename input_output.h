@@ -10,6 +10,7 @@
 #ifdef __cplusplus
 #include <iostream>
 #include <limits>
+#include <iomanip>
 #endif
 
 // Structure to hold calculation data
@@ -32,5 +33,10 @@ void addNumbers(CalcData* data);
 void subtractNumbers(CalcData* data);
 void multiplyNumbers(CalcData* data);
 void divideNumbers(CalcData* data);
+
+// Geometry functions (geometry.cpp) - C++ style
+void calculateRectangleArea(CalcData* data);
+void calculateCircleArea(CalcData* data);
+void calculateTriangleArea(CalcData* data);
 
 #endif // INPUT_OUTPUT_H

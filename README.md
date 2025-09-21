@@ -15,6 +15,10 @@ A robust hybrid C/C++ calculator application featuring modular architecture and 
 
 - Interactive calculator with menu-driven interface using modern C++ I/O streams
 - Square, addition, subtraction, multiplication, and division operations
+- **Complete geometry module**: Rectangle, circle, and triangle area calculations
+- **Rectangle area calculation** with C++ style I/O
+- **Circle area calculation** with precise floating-point arithmetic
+- **Triangle area calculation** with (base × height) ÷ 2 formula
 - Integer overflow protection using mathematical bounds checking
 - Robust input validation rejecting non-numeric input (C++ std::cin with C-style validation)
 - Memory-safe implementation using standard C/C++ libraries
@@ -30,6 +34,7 @@ A robust hybrid C/C++ calculator application featuring modular architecture and 
 ├── input_validation.cpp       # Input validation and overflow detection (C style)
 ├── arithmetic.cpp             # Safe arithmetic operations (C style)
 ├── calculator.cpp             # Calculator logic and display (C style)
+├── geometry.cpp               # Geometry calculations (C++ style)
 ├── input_output.h             # Header with function declarations
 ├── Makefile                   # Cross-platform build system
 ├── Calculator.sln             # Visual Studio solution file
@@ -45,6 +50,7 @@ This project demonstrates **seamless integration** of C and C++ code:
 #### **C++ Components:**
 
 - **`main.cpp`**: Modern C++ with `std::cout`, `std::cin`, stream error handling
+- **`geometry.cpp`**: C++ style geometry calculations with stream I/O
 - **Language Features**: `true`/`false`, stream chaining, automatic type deduction
 
 #### **C Components:**
@@ -169,22 +175,36 @@ The calculator has been tested with:
 
 ## Example Usage
 
+```text
 === Calculator Menu ===
-
 1. Square a number
 2. Add two numbers
 3. Subtract two numbers
 4. Multiply two numbers
 5. Divide two numbers
-6. Exit
-
-Enter your choice (1-6): 2
+6. Rectangle area
+7. Circle area
+8. Exit
+Enter your choice (1-8): 2
 
 Enter the first number: 15
-
 Enter the second number: 25
-
 Result: 15 + 25 = 40
+
+=== Calculator Menu ===
+1. Square a number
+2. Add two numbers
+3. Subtract two numbers
+4. Multiply two numbers
+5. Divide two numbers
+6. Rectangle area
+7. Circle area
+8. Exit
+Enter your choice (1-8): 7
+
+Circle radius (cm) -> 7
+Area of the circle is 153.9380 sq.cm
+```
 
 ## Troubleshooting
 

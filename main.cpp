@@ -14,13 +14,16 @@ int main()
                   << "3. Subtract two numbers\n"
                   << "4. Multiply two numbers\n"
                   << "5. Divide two numbers\n"
-                  << "6. Exit\n"
-                  << "Enter your choice (1-6): ";
+                  << "6. Rectangle area\n"
+                  << "7. Circle area\n"
+                  << "8. Triangle area\n"
+                  << "9. Exit\n"
+                  << "Enter your choice (1-9): ";
         
         // C++ style input with error handling
-        if (!(std::cin >> choice) || choice < 1 || choice > 6)
+        if (!(std::cin >> choice) || choice < 1 || choice > 9)
         {
-            std::cout << "Invalid choice! Please enter a number between 1 and 6.\n";
+            std::cout << "Invalid choice! Please enter a number between 1 and 9.\n";
             
             // C++ style input stream error recovery
             std::cin.clear();  // Clear error flags
@@ -29,7 +32,7 @@ int main()
         }
 
         // Exit option
-        if (choice == 6)
+        if (choice == 9)
         {
             std::cout << "Thank you for using the calculator!\n";
             break;
@@ -41,6 +44,21 @@ int main()
             std::cout << "\nEnter the number: ";
             readInteger(&data.a);  // Call C-style function from C++ main
             squareNumber(&data);   // Call C-style function from C++ main
+        }
+        else if (choice == 6)
+        {
+            // C++ style geometry calculation
+            calculateRectangleArea(&data);  // Call C++ function from C++ main
+        }
+        else if (choice == 7)
+        {
+            // C++ style geometry calculation
+            calculateCircleArea(&data);  // Call C++ function from C++ main
+        }
+        else if (choice == 8)
+        {
+            // C++ style geometry calculation
+            calculateTriangleArea(&data);  // Call C++ function from C++ main
         }
         else
         {

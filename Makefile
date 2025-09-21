@@ -18,7 +18,7 @@ endif
 HEADER = input_output.h
 
 # Source files
-SOURCES = main.cpp input_validation.cpp arithmetic.cpp calculator.cpp
+SOURCES = main.cpp input_validation.cpp arithmetic.cpp calculator.cpp geometry.cpp
 OBJECTS = $(SOURCES:.cpp=.o)
 
 # Default target

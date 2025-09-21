@@ -128,6 +128,7 @@
   <ItemGroup>
     <ClCompile Include="arithmetic.cpp" />
     <ClCompile Include="calculator.cpp" />
+    <ClCompile Include="geometry.cpp" />
     <ClCompile Include="input_validation.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
