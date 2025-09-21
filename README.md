@@ -137,8 +137,11 @@ calculator.exe
 ## Compatibility Features
 
 ✅ **Cross-platform Makefile** - Detects Windows/Unix automatically
+
 ✅ **Visual Studio project files** - Ready for VS 2019/2022
+
 ✅ **Standard C++ code** - No platform-specific dependencies
+
 ✅ **Portable libraries** - Uses only standard C/C++ headers
 
 ## Build Options
