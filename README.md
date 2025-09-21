@@ -19,6 +19,7 @@ A robust hybrid C/C++ calculator application featuring modular architecture and 
 - **Rectangle area calculation** with C++ style I/O
 - **Circle area calculation** with precise floating-point arithmetic
 - **Triangle area calculation** with (base × height) ÷ 2 formula
+- **Clean user interface** with automatic screen clearing between operations
 - Integer overflow protection using mathematical bounds checking
 - Robust input validation rejecting non-numeric input (C++ std::cin with C-style validation)
 - Memory-safe implementation using standard C/C++ libraries
@@ -35,6 +36,7 @@ A robust hybrid C/C++ calculator application featuring modular architecture and 
 ├── arithmetic.cpp             # Safe arithmetic operations (C style)
 ├── calculator.cpp             # Calculator logic and display (C style)
 ├── geometry.cpp               # Geometry calculations (C++ style)
+├── utilities.cpp              # Utility functions (cross-platform)
 ├── input_output.h             # Header with function declarations
 ├── Makefile                   # Cross-platform build system
 ├── Calculator.sln             # Visual Studio solution file
@@ -51,6 +53,7 @@ This project demonstrates **seamless integration** of C and C++ code:
 
 - **`main.cpp`**: Modern C++ with `std::cout`, `std::cin`, stream error handling
 - **`geometry.cpp`**: C++ style geometry calculations with stream I/O
+- **`utilities.cpp`**: Cross-platform utility functions (screen clearing)
 - **Language Features**: `true`/`false`, stream chaining, automatic type deduction
 
 #### **C Components:**

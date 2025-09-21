@@ -38,6 +38,9 @@ int main()
             break;
         }
 
+        // Clear screen after valid choice for cleaner interface
+        clearScreen();
+
         // Get input based on operation
         if (choice == 1)
         {

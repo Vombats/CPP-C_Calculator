@@ -39,4 +39,7 @@ void calculateRectangleArea(CalcData* data);
 void calculateCircleArea(CalcData* data);
 void calculateTriangleArea(CalcData* data);
 
+// Utility functions
+void clearScreen();
+
 #endif // INPUT_OUTPUT_H
