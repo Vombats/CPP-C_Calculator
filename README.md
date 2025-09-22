@@ -190,8 +190,9 @@ The calculator has been tested with:
 5. Divide two numbers
 6. Rectangle area
 7. Circle area
-8. Exit
-Enter your choice (1-8): 2
+8. Triangle area
+9. Exit
+Enter your choice (1-9): 2
 
 Enter the first number: 15
 Enter the second number: 25
@@ -205,8 +206,25 @@ Result: 15 + 25 = 40
 5. Divide two numbers
 6. Rectangle area
 7. Circle area
-8. Exit
-Enter your choice (1-8): 7
+8. Triangle area
+9. Exit
+Enter your choice (1-9): 8
+
+Enter base of a triangle: 6
+Enter height of a triangle: 3
+Area of the triangle is 9.0000000 sq.cm
+
+=== Calculator Menu ===
+1. Square a number
+2. Add two numbers
+3. Subtract two numbers
+4. Multiply two numbers
+5. Divide two numbers
+6. Rectangle area
+7. Circle area
+8. Triangle area
+9. Exit
+Enter your choice (1-9): 7
 
 Circle radius (cm) -> 7
 Area of the circle is 153.9380 sq.cm
